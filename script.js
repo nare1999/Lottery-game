@@ -15,6 +15,8 @@ let arr = [
 ];
 const butt = document.getElementById('butt');
 
+let a=0;
+
 butt.addEventListener('click', function () {
     // Remove final highlight if any
     for (let i = 1; i <= 50; i++) {
